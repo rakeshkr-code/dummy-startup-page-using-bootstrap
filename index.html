@@ -87,14 +87,28 @@
         <!-- Testimonials -->
 
         <section id="testimonials">
-
-            <h2 class="testimonial-head">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text</h2>
-            <img class="testimonial-image" src="images/person2-img.jpg" alt="person2-profile" width="150px">
-            <em>Road, City, State</em>
-
-            <!-- <h2 class="testimonial-text">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text.</h2>
-            <img class="testimonial-image" src="images/person1-img.jpg" alt="person1-profile">
-            <em>Road, City, State</em> -->
+            <div id="testimonialsAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" data-bs-pause="hover">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2 class="testimonial-text">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text</h2>
+                        <img class="testimonial-image" src="images/person2-img.jpg" alt="person2-profile" width="150px">
+                        <em>Road, City, State</em>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="testimonial-text">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text.</h2>
+                        <img class="testimonial-image" src="images/person1-img.jpg" alt="person1-profile">
+                        <em>Road, City, State</em>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialsAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
         </section>
 
@@ -114,33 +128,64 @@
 
         <section id="pricing">
 
-            <h2>A Plan for Dummy Services</h2>
-            <p>Simple and affordable price plans for all our dummy services.</p>
+            <div class="pricing-text">
+                <h2>A Plan for Dummy Services</h2>
+                <p>Simple and affordable price plans for all our dummy services.</p>
+            </div>
 
+            <div class="row g-4 text-center card-selection">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="card-header-text">Plan Type 1</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Free</h2>
+                            <p>5 Matches Per Day</p>
+                            <p>10 Messages Per Day</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <h3>Plan Type 1</h3>
-            <h2>Free</h2>
-            <p>5 Matches Per Day</p>
-            <p>10 Messages Per Day</p>
-            <p>Unlimited App Usage</p>
-            <button type="button">Sign Up</button>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="card-header-text">Plan Type 2</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>299 / mo</h2>
+                            <p>Unlimited Matches</p>
+                            <p>Unlimited Messages</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-            <h3>Plan Type 2</h3>
-            <h2>299 / mo</h2>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button">Sign Up</button>
-
-
-            <h3>Plan Type 3</h3>
-            <h2>499 / mo</h2>
-            <p>Pirority Listing</p>
-            <p>Unlimited Matches</p>
-            <p>Unlimited Messages</p>
-            <p>Unlimited App Usage</p>
-            <button type="button">Sign Up</button>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            <h3 class="card-header-text">Plan Type 3</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>499 / mo</h2>
+                            <p>Pirority Listing</p>
+                            <p>Unlimited Matches</p>
+                            <p>Unlimited Messages</p>
+                            <p>Unlimited App Usage</p>
+                            <div class="d-grid">
+                                <button type="button" class="btn btn-lg btn-dark">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
 

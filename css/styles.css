@@ -8,6 +8,15 @@ h1 {
     font-weight: 900;
     line-height: 1.5;
 }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
 /********** CLASSES **********/
 .container-fluid {
@@ -83,12 +92,15 @@ h1 {
 
 /* Testimonial Section */
 #testimonials {
-    padding: 7% 15%;
+    /* padding: 7% 15%; */
     text-align: center;
     background-color: #a447f0;
     color: aliceblue;
 }
-.testimonial-head {
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-text {
     font-size: 2rem;
     font-weight: bold;
 }
@@ -106,4 +118,20 @@ h1 {
 .press-logo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+}
+.pricing-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-selection {
+    /* margin: 40px 8%; */
+}
+.card-header-text {
+    /* font-weight: bold; */
+    font-size: 1.4rem;
 }
