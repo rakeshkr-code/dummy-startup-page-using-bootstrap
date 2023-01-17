@@ -3,24 +3,33 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DummyStartUp</title>
+
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        <!-- Bootstrap CSS JS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <!-- Bootstrap Icons -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="css/styles.css">
     </head>
 
     <body>
 
-        <section id="title">
+        <!-- Title -->
+
+        <section class="colored-section" id="title">
 
             <div class="container-fluid">
 
-            <!-- Nav Bar -->
-
+                <!-- Nav Bar -->
                 <nav class="navbar navbar-expand-md navbar-dark">
-                    <!-- <div class="container-fluid"> -->
                     <a class="navbar-brand" href="#">dsu</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -38,24 +47,23 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- </div> -->
                 </nav>
 
-            <!-- Title -->
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <h1>Dummy Tag Line & Dummy Dummy Tag Line Dummy</h1>
-                    <button type="button" class="btn btn-lg btn-dark download-button">
-                        <i class="bi bi-apple"></i> Download
-                    </button>
-                    <button type="button" class="btn btn-lg btn-outline-light download-button">
-                        <i class="bi bi-google-play"></i> Download
-                    </button>
+                <!-- Title -->
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h1 class="big-heading">Dummy Tag Line & Dummy Dummy Tag Line Dummy</h1>
+                        <button type="button" class="btn btn-lg btn-dark download-button">
+                            <i class="bi bi-apple"></i> Download
+                        </button>
+                        <button type="button" class="btn btn-lg btn-outline-light download-button">
+                            <i class="bi bi-google-play"></i> Download
+                        </button>
+                    </div>
+                    <div class="col-md-6 col-sm-12 t-img-div">
+                        <img src="images/iphone6.png" alt="iphone-mockup" class="title-image">
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-12 t-img-div">
-                    <img src="images/iphone6.png" alt="iphone-mockup" class="title-image">
-                </div>
-            </div>
 
             </div>
         </section>
@@ -63,7 +71,7 @@
 
         <!-- Features -->
 
-        <section id="features">
+        <section class="white-section" id="features">
             <div class="row container-fluid feature-box">
                 <div class="col-lg-4 jth-feature">
                     <i class="bi bi-check-circle-fill feature-icon"></i>
@@ -86,15 +94,15 @@
 
         <!-- Testimonials -->
 
-        <section id="testimonials">
+        <section class="colored-section" id="testimonials">
             <div id="testimonialsAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500" data-bs-pause="hover">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item container-fluid active">
                         <h2 class="testimonial-text">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text</h2>
                         <img class="testimonial-image" src="images/person2-img.jpg" alt="person2-profile" width="150px">
                         <em>Road, City, State</em>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item container-fluid">
                         <h2 class="testimonial-text">Dummy Testimonial & Dummy Testimonial the dummy testimonial & the same Dummy Text.</h2>
                         <img class="testimonial-image" src="images/person1-img.jpg" alt="person1-profile">
                         <em>Road, City, State</em>
@@ -115,7 +123,7 @@
 
         <!-- Press -->
 
-        <section id="press">
+        <section class="colored-section" id="press">
             <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
             <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
             <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
@@ -126,21 +134,21 @@
 
         <!-- Pricing -->
 
-        <section id="pricing">
+        <section class="white-section" id="pricing">
 
-            <div class="pricing-text">
-                <h2>A Plan for Dummy Services</h2>
+            <div class="pricing-text-div">
+                <h2 class="section-heading pricing-text-heading">A Plan for Dummy Services</h2>
                 <p>Simple and affordable price plans for all our dummy services.</p>
             </div>
 
-            <div class="row g-4 text-center card-selection">
+            <div class="row g-4 text-center pricing-cards-div-all">
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100">
+                    <div class="card h-100 pricing-card-div">
                         <div class="card-header">
-                            <h3 class="card-header-text">Plan Type 1</h3>
+                            <h3 class="pricing-card-heading">Plan Type 1</h3>
                         </div>
                         <div class="card-body">
-                            <h2>Free</h2>
+                            <h2 class="pricing-card-body-heading">Free</h2>
                             <p>5 Matches Per Day</p>
                             <p>10 Messages Per Day</p>
                             <p>Unlimited App Usage</p>
@@ -152,12 +160,12 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6">
-                    <div class="card h-100">
+                    <div class="card h-100 pricing-card-div">
                         <div class="card-header">
-                            <h3 class="card-header-text">Plan Type 2</h3>
+                            <h3 class="pricing-card-heading">Plan Type 2</h3>
                         </div>
                         <div class="card-body">
-                            <h2>299 / mo</h2>
+                            <h2 class="pricing-card-body-heading">299 / mo</h2>
                             <p>Unlimited Matches</p>
                             <p>Unlimited Messages</p>
                             <p>Unlimited App Usage</p>
@@ -169,12 +177,12 @@
                 </div>
 
                 <div class="col-lg-4">
-                    <div class="card h-100">
+                    <div class="card h-100 pricing-card-div">
                         <div class="card-header">
-                            <h3 class="card-header-text">Plan Type 3</h3>
+                            <h3 class="pricing-card-heading">Plan Type 3</h3>
                         </div>
                         <div class="card-body">
-                            <h2>499 / mo</h2>
+                            <h2 class="pricing-card-body-heading">499 / mo</h2>
                             <p>Pirority Listing</p>
                             <p>Unlimited Matches</p>
                             <p>Unlimited Messages</p>
@@ -192,10 +200,10 @@
 
         <!-- Call to Action -->
 
-        <section id="cta">
+        <section class="colored-section" id="cta">
 
-            <div class="cta-div">
-                <h3 class="cta-heading mt-3">Call to Action Section & Download Button.</h3>
+            <div class="cta-div container-fluid">
+                <h3 class="big-heading mt-3">Call to Action Section & Download Button.</h3>
                 <button type="button" class="btn btn-lg btn-dark download-button">
                     <i class="bi bi-apple"></i> Download
                 </button>
@@ -210,7 +218,7 @@
 
         <footer id="footer">
 
-            <div class="footer-div">
+            <div class="footer-div container-fluid">
                 <div class="footer-icons-div">
                     <i class="bi bi-twitter footer-icon"></i>
                     <i class="bi bi-facebook footer-icon"></i>
