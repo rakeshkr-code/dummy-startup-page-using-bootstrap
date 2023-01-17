@@ -28,13 +28,13 @@
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav ms-auto">
                             <li class="navbar-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#footer">Contact</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="navbar-item">
-                                <a class="nav-link" href="#">Download</a>
+                                <a class="nav-link" href="#cta">Download</a>
                             </li>
                         </ul>
                     </div>
@@ -194,10 +194,15 @@
 
         <section id="cta">
 
-            <h3>Call to Action Section & Download Button.</h3>
-            <button type="button">Appstore Download</button>
-            <button type="button">Playstore Download</button>
-
+            <div class="cta-div">
+                <h3 class="cta-heading mt-3">Call to Action Section & Download Button.</h3>
+                <button type="button" class="btn btn-lg btn-dark download-button">
+                    <i class="bi bi-apple"></i> Download
+                </button>
+                <button type="button" class="btn btn-lg btn-outline-light download-button">
+                    <i class="bi bi-google-play"></i> Download
+                </button>
+            </div>
         </section>
 
 
@@ -205,8 +210,15 @@
 
         <footer id="footer">
 
-            <p>© Copyright DummyStartUp</p>
-
+            <div class="footer-div">
+                <div class="footer-icons-div">
+                    <i class="bi bi-twitter footer-icon"></i>
+                    <i class="bi bi-facebook footer-icon"></i>
+                    <i class="bi bi-instagram footer-icon"></i>
+                    <i class="bi bi-envelope-at-fill footer-icon"></i>
+                </div>
+                <p class="footer-text mt-2 mb-2">© Copyright DummyStartUp</p>
+            </div>
         </footer>
 
 

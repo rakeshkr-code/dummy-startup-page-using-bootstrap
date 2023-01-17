@@ -145,6 +145,37 @@ h3 {
     font-size: 1.4rem;
 }
 
+/* Call To Action */
+.cta-div {
+    color: aliceblue;
+    background-color: #a447f0;
+    text-align: center;
+    /* padding-top: 8%;
+    padding-bottom: 5%; */
+    padding: 7% 15%;
+}
+.cta-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+    /* padding-bottom: 5%;
+    padding-top: 5%; */
+    padding: 7% 15%;
+    text-align: center;
+    background-color: aliceblue;
+}
+.footer-icon {
+    font-size: 1.3rem;
+    margin: 0 1%;
+}
+.footer-text {
+    font-size: 0.7rem;
+}
+
 
 @media (max-width: 1060px) {
     #title {
